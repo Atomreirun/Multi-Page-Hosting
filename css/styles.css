@@ -1,0 +1,41 @@
+body {
+  background: lightseagreen;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+.page-link {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.page-link a {
+  margin: 40px;
+  padding: 10px;
+  border: 1px blueviolet;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.homepage-link,
+.photopage-link,
+.contactpage-link {
+  background: blueviolet;
+  color: white;
+  font-size: medium;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
